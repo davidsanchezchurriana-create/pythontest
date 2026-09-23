@@ -1,0 +1,5 @@
+n1=int(input("Introduce un numero entero: "))
+n2=int(input("Introduce el numero entero que lo va a dividir: "))
+cociente=int(n1//n2)
+resto=int(n1%n2)
+print(f"{n1} entre {n2} da un cociente {cociente} y un resto {resto}.")
