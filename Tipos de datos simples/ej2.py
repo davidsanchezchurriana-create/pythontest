@@ -1,2 +1,2 @@
-var = "¡Hola Mundo!"
-print(var)
+mensaje="¡Hola Mundo!"
+print(mensaje)
