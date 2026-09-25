@@ -1,0 +1,7 @@
+precio_pan_dia=float(3.49)
+descuento_pan_no_dia=float(0.6)
+print(f"El precio de una barra de pan del dia es de {precio_pan_dia} y su descuento si no es del dia, es del {descuento_pan_no_dia*100}%")
+num_pan_no_dia=int(input("Introduce la cantidad de pan no del dia: "))
+calc_porc=float(100-descuento_pan_no_dia)
+calc=float((precio_pan_dia*num_pan_no_dia)/descuento_pan_no_dia)
+print(f"El coste final del pan no del dia es de {calc}")
