@@ -1,0 +1,6 @@
+num_payasos=int(input("Introduce el numero de payasos: "))
+num_muñecas=int(input("Introduce el numero de muñecas: "))
+calc_payasos=int(112*num_payasos)
+calc_muñecas=int(75*num_muñecas)
+total=int(calc_payasos+calc_muñecas)
+print(f"El paquete que va a ser enviado va a pesar {total} g")
